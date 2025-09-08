@@ -17,5 +17,5 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
-    path("tradingView/", include("testing_webhooks.urls")),
+    path("coinbase/", include("testing_webhooks.urls")),
 ]
